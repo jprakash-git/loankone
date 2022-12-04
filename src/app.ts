@@ -3,7 +3,7 @@ import { json } from "stream/consumers";
 const app: Application = express();
 
 app.get("/", (req, res) => {
-    res.status(200).send("Welcome To LoanKone");
+    res.status(200).send("LoanKone web first page");
 });
 
 const PORT = process.env.PORT || 8080;
